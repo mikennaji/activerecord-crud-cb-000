@@ -63,6 +63,7 @@ def can_find_using_where_clause_and_be_sorted
   # release date descending
   movie = Movie.where("release_date>2002")
   movie.order(:release_date, :asc)
+  movie
 end
 
 def can_be_found_updated_and_saved
