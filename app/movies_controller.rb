@@ -9,8 +9,6 @@ def can_be_instantiated_and_then_saved
   movie =Movie.new
   movie.title = "This is a title."
 end
-end
-
 def can_be_created_with_a_hash_of_attributes
   # Initialize movie and then and save it
   attributes = {
